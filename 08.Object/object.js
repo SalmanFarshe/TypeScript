@@ -1,0 +1,15 @@
+var obj;
+obj = {};
+console.log(typeof obj);
+var users;
+users = [];
+var user1;
+user1 = { Id: 100, Name: "Salman" };
+var user2;
+user2 = { Id: 101, Name: "Farshe" };
+var user3;
+user3 = { Id: 102, Name: "Zihad" };
+users.push(user1);
+users.push(user2);
+users.push(user3);
+console.log(users[0]["Name"] + " " + users[1]["Name"] + " " + users[2]["Name"]);
