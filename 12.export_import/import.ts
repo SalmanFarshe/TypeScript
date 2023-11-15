@@ -1,2 +1,2 @@
-import { name, age } from "./export";
-console.log(name, age);
+import { name, age, number } from "./export";
+console.log(name, age, number);
